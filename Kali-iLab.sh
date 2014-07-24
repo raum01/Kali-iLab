@@ -55,6 +55,5 @@ else
 	apt-get update && apt-get install -y linux-headers-$(uname -r) && apt-get install -y virtualbox
 	
 	echo -e "\033[30;41mdone here...\n \033[0m"
-	clear
-					
+	
 fi
