@@ -56,4 +56,6 @@ else
 	
 	echo -e "\033[30;41mdone here...\n \033[0m"
 	
+	virtualbox 2> /dev/null
+	
 fi
