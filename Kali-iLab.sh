@@ -52,10 +52,10 @@ else
 	# Update/refresh Sources, Install Linux headers and VirtualBox
 	echo -e $greentext"Keep Calm... \n updating System Sources, Kernel headers and installing Virtual Box "$normal
 	
-	apt-get update && apt-get install -y linux-headers-$(uname -r) && apt-get install -y virtualbox
+	apt-get update && apt-get install -y linux-headers-$(uname -r)
 	
 	echo -e "\033[30;41mdone here...\n \033[0m"
 	
-	virtualbox 2> /dev/null
+	
 	
 fi
